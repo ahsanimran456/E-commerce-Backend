@@ -1,14 +1,8 @@
 import express from "express";
+import GetsimilarProducts from "./GetSimilarProduct";
 const router = express.Router();
 
 
-router.get('/getproducts', (req, res) => {
-    res.send([
-        {
-            id:1,
-            class:"2"
-        }
-    ]);
-});
+router.post('/postproductscategories/:belongs', GetsimilarProducts);
 
 export default router
