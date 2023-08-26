@@ -3,6 +3,6 @@ import GetsimilarProducts from "./GetSimilarProduct";
 const router = express.Router();
 
 
-router.post('/postproductscategories/:belongs', GetsimilarProducts);
+router.get('/getproductscategories/:belongs', GetsimilarProducts);
 
 export default router
