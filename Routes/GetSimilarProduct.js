@@ -1,4 +1,4 @@
-import garmentsArray from "../Data/Items";
+import { garmentsArray } from "../Data/Items"
 
 const GetsimilarProducts = (req, res) => {
     let body = req.params.belongs
@@ -8,7 +8,7 @@ const GetsimilarProducts = (req, res) => {
     } else {
         res.send(
             {
-                message: "item does not match",
+                message: "data not found",
                 error: "404"
             }
         )

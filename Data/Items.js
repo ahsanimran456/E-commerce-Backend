@@ -323,4 +323,230 @@ const garmentsArray = [
     },
 ];
 
-export default garmentsArray
+
+const topTrendingItems = [
+    {
+        id: 1,
+        description: "East Line-Women White Embroidered Two Piece Stitched",
+        actualPrice: 4400,
+        discountPrice: 3000,
+        belongs: "womens",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/25082023/hrw07107_1692967758-865801496836.jpg"
+
+    },
+    {
+        id: 2,
+        description: "East Line-Women Purple Solid Two Piece Stitched",
+        actualPrice: 2900,
+        discountPrice: 2000,
+        belongs: "womens",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/25082023/hrw04840_1692961315-879913478986.jpg"
+
+    },
+    {
+        id: 3,
+        description: "East Line-Women Black Two Piece Stitched",
+        actualPrice: 2400,
+        discountPrice: 2000,
+        belongs: "womens",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/25082023/iqra-262_1692868286-865209791961.jpg"
+
+    },
+    {
+        id: 4,
+        description: "East Line-Women Maroon Embroidered Two Piece Stitched",
+        actualPrice: 3900,
+        discountPrice: 3000,
+        belongs: "womens",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/31072023/hrw06955_1689684940-652293459496.jpg"
+
+    },
+    {
+        id: 5,
+        description: "East Line-Women Maroon Embroidered Two Piece Stitched",
+        actualPrice: 3800,
+        discountPrice: 3000,
+        belongs: "womens",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/05082023/hrw07270_1691216532-624259034996.jpg"
+
+    },
+    {
+        id: 6,
+        description: "East Line-Women Maroon Embroidered Two Piece Stitched",
+        actualPrice: 3900,
+        discountPrice: 3000,
+        belongs: "womens",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/05082023/hrw06783_1689686813-1360762546527.jpg"
+
+    },
+    {
+        id: 7,
+        description: "East Line-Women Maroon Embroidered Two Piece Stitched",
+        actualPrice: 3000,
+        discountPrice: 2800,
+        belongs: "womens",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/01082023/hrw06877_1689686863-1320087837699.jpg"
+
+    },
+    {
+        id: 8,
+        description: "East Line-Women Maroon Embroidered Two Piece Stitched",
+        actualPrice: 3000,
+        discountPrice: 2900,
+        belongs: "womens",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/31072023/hrw06869_1690804628-315408553103.jpg"
+
+    },
+    {
+        id: 9,
+        description: "Men's Long Sleeve Compression Shirt",
+        actualPrice: 1479,
+        discountPrice: 1390,
+        belongs: "mens",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/25072023/14_1690282545-883789137839.jpg"
+
+    },
+    {
+        id: 10,
+        description: "Men's Long Sleeve Compression Shirt",
+        actualPrice: 1700,
+        discountPrice: 1390,
+        belongs: "mens",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/25072023/1_1690282719-1036346692221.jpg"
+
+    },
+    {
+        id: 11,
+        description: "Short Sleeve Compression Shirt",
+        actualPrice: 1400,
+        discountPrice: 1390,
+        belongs: "mens",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/25072023/6-1_1690282873-776030546829.jpg"
+
+    },
+    {
+        id: 12,
+        description: "Short Sleeve Compression Shirt",
+        actualPrice: 1590,
+        discountPrice: 1340,
+        belongs: "mens",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/25072023/11_1690282478-1280322477300.jpg"
+
+    },
+    {
+        id: 13,
+        description: "Short Sleeve Compression Shirt",
+        actualPrice: 1650,
+        discountPrice: 1580,
+        belongs: "mens",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/25072023/8_1690282573-958083286639.jpg"
+
+    },
+    {
+        id: 14,
+        description: "West Line Men Skin Tee Shirt",
+        actualPrice: 1800,
+        discountPrice: 1580,
+        belongs: "mens",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/25072023/3_1690282606-1322750710098.jpg"
+    },
+    {
+        id: 15,
+        description: "West Line Men Skin Tee Shirt",
+        actualPrice: 1900,
+        discountPrice: 1580,
+        belongs: "mens",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/03052023/ad-bt-02-skin-1_1683097395-533335522532.jpg"
+    },
+    {
+        id: 16,
+        description: "West Line Men Skin Tee Shirt",
+        actualPrice: 1600,
+        discountPrice: 1300,
+        belongs: "mens",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/11052023/371_1683528888_64589cb836924_26_1675408874-1612425162120.jpg"
+    },
+    {
+        id: 17,
+        description: "Yellow-Bee Girls Dark Blue Denim Pants",
+        actualPrice: 800,
+        discountPrice: 790,
+        belongs: "girls",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/12112022/13565_462_1668242044_636f5a7c69cdd-529915238360.jpg"
+    },
+    {
+        id: 18,
+        description: "Yellow Bee Girls One Piece Stitched Light Green Garara",
+        actualPrice: 1600,
+        discountPrice: 1500,
+        belongs: "girls",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/22062022/19708_560_1650350882_625e5b2200996-1270211558623.jpg"
+    },
+    {
+        id: 19,
+        description: "Yellow Bee Kids Western Summer Dress",
+        actualPrice: 1700,
+        discountPrice: 1500,
+        belongs: "girls",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/28072022/16789_177_1648725221_62458ce56530d-430730381514.jpg"
+    },
+    {
+        id: 20,
+        description: "Tasche Girls Brown Handbag",
+        actualPrice: 1700,
+        discountPrice: 1500,
+        belongs: "girls",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/26062023/ed043-tsh-brown-1_1687769520-436616395414.jpg"
+    },
+    {
+        id: 21,
+        description: "Yellow-Bee Boys Blue Full Sleeve Shir",
+        actualPrice: 1700,
+        discountPrice: 1500,
+        belongs: "boys",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/18042023/hrw02160_1681549924-222080148409.jpg"
+    },
+    {
+        id: 22,
+        description: "Yellow-Bee Boys Blue Full Sleeve Shir",
+        actualPrice: 1700,
+        discountPrice: 1500,
+        belongs: "boys",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/18042023/hrw02507_1681549885-570265811600.jpg"
+    },
+    {
+        id: 23,
+        description: "Yellow-Bee Boys Blue Full Sleeve Shir",
+        actualPrice: 700,
+        discountPrice: 600,
+        belongs: "boys",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/18042023/hrw01891_1681549866-1166001049530.jpg"
+    },
+    {
+        id: 24,
+        description: "Yellow Bee Boys Stitched One Piece Kurta",
+        actualPrice: 1200,
+        discountPrice: 1000,
+        belongs: "boys",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/09052022/12924_268_1650372611_625eb0031983f-99129179406.jpg"
+    },
+    {
+        id: 25,
+        description: "Beauty Uk Photo.Ready Foundation No.6 (Tan)",
+        actualPrice: 4000,
+        discountPrice: 3500,
+        belongs: "beauty",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/24082023/screenshot-2023-08-24-120323_1692860652-548151275725.jpg"
+    },
+    {
+        id: 25,
+        description: "Beauty Uk Matte Fx Foundation - No-4 (Honey)",
+        actualPrice: 5000,
+        discountPrice: 3590,
+        belongs: "beauty",
+        imgurl: "https://d30fs77zq6vq2v.cloudfront.net/product/515x772/24082023/screenshot-2023-08-24-122812_1692862103-565694668693.jpg"
+    },
+]
+
+
+export { garmentsArray, topTrendingItems };
